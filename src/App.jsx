@@ -31,7 +31,7 @@ const [loading, setLoading] = useState(false)
         <div className="search">
           <input onKeyDown={getData}
             onChange={(e) => setCity(e.target.value)}
-            type="text" placeholder='Enter City Name' />
+            type="text" placeholder='Enter City ' />
         </div>
         <div>
                   <p style={{textAlign:"center"}} >{errorMessage}</p>
